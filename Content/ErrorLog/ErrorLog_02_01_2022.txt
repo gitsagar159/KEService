@@ -1,0 +1,52 @@
+-----------------------------------------------------------------------------
+Date : 02-01-2022 13:38:33
+
+System.InvalidOperationException
+Message : The ConnectionString property has not been initialized.
+StackTrace :    at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at KEService.Models.Data.BaseDAL.GetResultDataTable(String strQuery, CommandType SqlcommandType, List`1 lstParams) in E:\Projects\KEService\Source\KEService\Models\Data\BaseDAL.cs:line 31
+   at KEService.Services.PersonService.GetPersonDataById(String Id) in E:\Projects\KEService\Source\KEService\Services\PersonService.cs:line 75
+-----------------------------------------------------------------------------
+Date : 02-01-2022 13:42:21
+
+System.InvalidOperationException
+Message : The ConnectionString property has not been initialized.
+StackTrace :    at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at KEService.Models.Data.BaseDAL.GetResultDataTable(String strQuery, CommandType SqlcommandType, List`1 lstParams) in E:\Projects\KEService\Source\KEService\Models\Data\BaseDAL.cs:line 31
+   at KEService.Services.PersonService.GetPersonList() in E:\Projects\KEService\Source\KEService\Services\PersonService.cs:line 30
+-----------------------------------------------------------------------------
+Date : 02-01-2022 13:42:37
+
+System.InvalidOperationException
+Message : The ConnectionString property has not been initialized.
+StackTrace :    at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at KEService.Models.Data.BaseDAL.GetResultDataTable(String strQuery, CommandType SqlcommandType, List`1 lstParams) in E:\Projects\KEService\Source\KEService\Models\Data\BaseDAL.cs:line 31
+   at KEService.Services.PersonService.GetPersonList() in E:\Projects\KEService\Source\KEService\Services\PersonService.cs:line 30
+-----------------------------------------------------------------------------
+Date : 02-01-2022 14:12:28
+
+System.InvalidOperationException
+Message : The ConnectionString property has not been initialized.
+StackTrace :    at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at KEService.Models.Data.BaseDAL.GetResultDataTable(String strQuery, CommandType SqlcommandType, List`1 lstParams) in E:\Projects\KEService\Source\KEService\Models\Data\BaseDAL.cs:line 31
+   at KEService.Services.PersonService.GetPersonList() in E:\Projects\KEService\Source\KEService\Services\PersonService.cs:line 30
