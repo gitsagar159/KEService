@@ -33,7 +33,6 @@ namespace KEService.Models.Data
                     return _staticConnectionString;
 
                 string con = ConfigurationManager.AppSetting["ConnectionStrings:KeConnection"];
-                //string con = ConfigurationManager.AppSetting["KeConnection"];
 
                 return con;
             }
